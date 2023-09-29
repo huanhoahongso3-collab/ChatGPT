@@ -639,7 +639,7 @@ def main() -> NoReturn:
     parser.add_argument(
         "--model",
         type=str,
-        default="gpt-3.5-turbo",
+        default="gpt-4",
         choices=ENGINES,
     )
 
